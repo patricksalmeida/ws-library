@@ -12,9 +12,8 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
-      "mylibrary": [
-        "dist/mylibrary"
-      ]
+      "mylibrary": ["dist/mylibrary"],
+      "@angular/*": ["./node_modules/@angular/*"]
     },
     "declaration": false,
     "downlevelIteration": true,
@@ -23,12 +22,10 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+    "lib": ["es2020", "dom"]
   },
   "angularCompilerOptions": {
+    "preserveSymlinks": true,
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,

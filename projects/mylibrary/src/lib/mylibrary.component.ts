@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'ml-mylibrary',
   template: `
-    <p>
-      mylibrary works!
-    </p>
+    <button>Test</button>
   `,
   styles: [
   ]
